@@ -77,7 +77,7 @@ with col2:
     subtask_b = st.button("🅱️ Sequence Image Prediction", use_container_width=True)
 
 if subtask_a:
-    st.switch_page("pages/subtask_a.py")
+    st.switch_page("Landing Pages for Subtasks/subtask_a.py")
 
 if subtask_b:
-    st.switch_page("pages/subtask_b.py")
+    st.switch_page("Landing Pages for Subtasks/subtask_b.py")
